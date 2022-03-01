@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Test JavaScript action tutorial",
+  "main": "index.js",
+  "scripts": {
+    "build-test": "ncc build test/action.js -o test/dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@the-tatanka",
+  "devDependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0",
+    "@vercel/ncc": "^0.27.0",
+    "node-fetch": "^2.6.1"
+  }
+}

@@ -1,0 +1,12 @@
+name: "Test You Action"
+description: 'Test "Thank You"'
+author: "@the-tatanka"
+
+inputs:
+  GITHUB_TOKEN:
+    description: "GitHub token"
+    required: true
+
+runs:
+  using: "node12"
+  main: "dist/index.js"
